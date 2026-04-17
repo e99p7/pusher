@@ -1,4 +1,4 @@
-# pusher
+# Pusher
 
 **Pusher Open AI Gymnasium (multi-articular robotic arm)**
 
@@ -6,7 +6,7 @@ The Pusher is a multi—jointed robotic arm very similar to a human arm. Her goa
 
 The action represents the torques applied to the pivots.Box(-2, 2, (7,), float32)(a, b)
 
-The observation space consists of the following parts (in order):
+**The observation space consists of the following parts (in order):**
 
 qpos (7 elements): Values of the position of the robot's body parts.
 
@@ -36,7 +36,7 @@ In ~ 1 million steps, the agent usually learns how to push the cylinder in the d
 
 At the end, we record a video of the test episode and output it on a laptop.
 
-
+---
 
 **Pusher Open AI Gymnasium (многосуставная роботизированная рука)**
 
@@ -45,7 +45,7 @@ At the end, we record a video of the test episode and output it on a laptop.
 
 Действие представляет собой крутящие моменты, приложенные к шарнирным соединениям.Box(-2, 2, (7,), float32)(a, b)
 
-Пространство наблюдения состоит из следующих частей (по порядку):
+**Пространство наблюдения состоит из следующих частей (по порядку):**
 
 qpos (7 элементов): Значения положения частей тела робота.
 
