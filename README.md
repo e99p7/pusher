@@ -22,7 +22,7 @@ The observation space is a space in which the following elements are present:Box
 
 The total reward is: reward = reward_dist + reward_ctrl + reward_near.
 
-**Learn more https://gymnasium .farama.org/environments/mujoco/pusher/**
+**Learn more https://gymnasium.farama.org/environments/mujoco/pusher/**
 
 The SAC (Soft Actor-Critic) algorithm is ideally suited for such tasks — it works in continuous action spaces, copes well with multi-joint manipulators and finds a strategy faster than PPO. And vector environments (SubprocVecEnv or make_vec_env) allow you to collect experience from multiple copies of Pusher in parallel, which speeds up learning.
 
